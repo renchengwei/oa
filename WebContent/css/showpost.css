@@ -1,0 +1,73 @@
+/*发帖和回复按钮*/
+.headbtn1,
+.headbtn2{
+	height: 100%;
+	width: 100px;
+	float: left;
+	line-height: 50px;
+	color: white;
+	font-weight: bold; 
+}
+/*发帖按钮背景色*/
+.headbtn1 {
+	background-color:  #8DB6CD;
+}
+/*回复按钮背景色*/
+.headbtn2 {
+	background-color:  #B0B0B0;
+}
+/*发帖按钮移动背景色*/
+.headbtn1:hover {
+	cursor:pointer;
+	background-color: #00BFFF
+}
+/*回复按钮移动背景色*/
+.headbtn2:hover{
+	cursor:pointer;
+	background-color: #CDC5BF
+}
+/*头像图片div*/
+.ImageDivStyle {
+	width:130px;
+	height: 150px;
+	border: 1px solid #CFCFCF;
+	background-color:white;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	padding-top:10px;
+}
+/*图片*/
+.ImageStyle {
+    max-height:100px; 
+    max-width:100px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*标题栏*/
+.posttitle {
+	height: 100%;
+	width:1024px;
+	background-color: #8C8C8C;
+	float: left;
+	color: white;
+	line-height: 50px;
+	font-size: 20px;"
+}
+/*帖子内容div*/
+.postcontentdiv {
+	border: 1px solid #CFCFCF;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	background-color: #F7F7F7;"
+}
+/*帖子内容显示div*/
+.postcontentdivshow {
+	width: 824px;
+	background-color: white;
+	border: 1px solid #CFCFCF;
+	vertical-align: top;
+	padding: 5px;
+}

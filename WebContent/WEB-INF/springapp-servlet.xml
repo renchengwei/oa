@@ -1,0 +1,27 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dwr="http://www.directwebremoting.org/schema/spring-dwr"   
+xmlns:dwra="http://www.directwebremoting.org/schema/spring-dwr-annotations" 
+ xmlns:aop="http://www.springframework.org/schema/aop" 
+ xmlns:task="http://www.springframework.org/schema/task"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:tx="http://www.springframework.org/schema/tx"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/aop 
+  http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+  http://www.springframework.org/schema/context 
+  http://www.springframework.org/schema/context/spring-context-3.0.xsd
+  http://www.springframework.org/schema/tx 
+  http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+  http://www.springframework.org/schema/task 
+  http://www.springframework.org/schema/task/spring-task-3.0.xsd
+  http://www.directwebremoting.org/schema/spring-dwr
+  http://www.directwebremoting.org/schema/spring-dwr-2.0.xsd
+  http://www.directwebremoting.org/schema/spring-dwr-annotations  
+  http://www.directwebremoting.org/schema/spring-dwr-annotations.xsd
+  http://ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring   
+  http://ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring/ehcache-spring-1.1.xsd">
+<context:annotation-config/>
+</beans>
